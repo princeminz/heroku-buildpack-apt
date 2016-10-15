@@ -3,7 +3,7 @@
 . ${BUILDPACK_TEST_RUNNER_HOME}/lib/test_utils.sh
 
 testCompile() {
-  cat > ${BUILD_DIR}/Aptfile <<EOF
+  cat > ${BUILD_DIR}/Aptfile2 <<EOF
 s3cmd
 wget
 EOF
